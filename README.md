@@ -1,4 +1,4 @@
-JMC CustomContactPage
+# JMC CustomContactPage
 
 Use a CMS Page for the contact page in Magento 2
 
