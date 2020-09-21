@@ -1,15 +1,16 @@
-# Mage2 Module JMC CustomContactPage
+JMC CustomContactPage
 
-    ``jmc/module-customcontactpage``
+Use a CMS Page for the contact page in Magento 2
+
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
 
 
 ## Main Functionalities
+
+
+Replace the static Contact Page for a Cms Page.
 
 
 ## Installation
@@ -21,31 +22,4 @@
  - Enable the module by running `php bin/magento module:enable JMC_CustomContactPage`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
-
-### Type 2: Composer
-
- - Make the module available in a composer repository for example:
-    - private repository `repo.magento.com`
-    - public repository `packagist.org`
-    - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require jmc/module-customcontactpage`
- - enable the module by running `php bin/magento module:enable JMC_CustomContactPage`
- - apply database updates by running `php bin/magento setup:upgrade`\*
- - Flush the cache by running `php bin/magento cache:flush`
-
-
-## Configuration
-
-
-
-
-## Specifications
-
-
-
-
-## Attributes
-
-
 
