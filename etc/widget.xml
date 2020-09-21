@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+	<widget class="JMC\CustomContactPage\Block\Widget\Contact" id="jmc_customcontactpage_contact">
+		<label>Contact</label>
+		<description>Contact Data</description>
+    <parameters>
+        <parameter name="value" xsi:type="select" visible="true" required="true" sort_order="20">
+            <label translate="true">Choose</label>
+            <options>
+                <option name="username" value="username">
+                    <label>Username</label>
+                </option>
+                <option name="email" value="email" selected="true">
+                    <label>Email</label>
+                </option>
+                <option name="comment" value="postvalue">
+                    <label>Comment</label>
+                </option>
+            </options>
+        </parameter>
+    </parameters>
+	</widget>
+</widgets>

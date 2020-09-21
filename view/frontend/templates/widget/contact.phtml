@@ -1,0 +1,19 @@
+<?php switch ($block->getData('value')) {
+    case 'username':
+        echo $block->escapeHtmlAttr($this->helper(\Magento\Contact\Helper\Data::class)->getPostValue('name') ?: $this->helper(\Magento\Contact\Helper\Data::class)->getUserName());
+        break;
+    case 'email':
+        echo $block->escapeHtmlAttr($this->helper(\Magento\Contact\Helper\Data::class)->getPostValue('email') ?: $this->helper(\Magento\Contact\Helper\Data::class)->getUserEmail());
+        break;
+    case 'comment':
+        echo $block->escapeHtml($this->helper(\Magento\Contact\Helper\Data::class)->getPostValue('comment'));
+        break;
+    case 'phone':
+        echo $block->escapeHtmlAttr($this->helper(\Magento\Contact\Helper\Data::class)->getPostValue('telephone'));
+        break;
+
+    default:
+        // code...
+        break;
+}
+?>
