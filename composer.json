@@ -1,0 +1,22 @@
+{
+    "name": "jmc/module-customcontactpage",
+    "description": "",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "JMC\\CustomContactPage\\": ""
+        }
+    }
+}
